@@ -1,0 +1,5 @@
+package com.schoolofnet.Testing.models;
+
+public class Person {
+
+}
