@@ -1,0 +1,12 @@
+package com.schoolofnet.junit_maven;
+
+import org.junit.jupiter.api.Test;
+
+public class AssertTest {
+	
+	@Test
+	public void testAssert() {
+		
+	}
+
+}

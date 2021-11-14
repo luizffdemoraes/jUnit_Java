@@ -1,0 +1,17 @@
+package com.schoolofnet.junit_maven;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class AssertTest {
+	
+	@Test
+	public void testAssert() {
+		String str1 = "jUnit";
+		String str2 = "jUnit";
+		
+		assertEquals(str1, str2);
+	}
+
+}
