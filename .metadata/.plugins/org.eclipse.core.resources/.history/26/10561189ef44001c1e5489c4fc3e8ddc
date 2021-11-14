@@ -1,0 +1,19 @@
+package com.schoolofnet.junit_maven;
+
+import org.hamcrest.Description;
+import org.hamcrest.TypeSafeDiagnosingMatcher;
+
+public class isEmptyString extends TypeSafeDiagnosingMatcher<T>{
+
+	public void describeTo(Description description) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected boolean matchesSafely(T item, Description mismatchDescription) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

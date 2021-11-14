@@ -1,0 +1,19 @@
+package com.schoolofnet.junit_maven;
+
+import org.hamcrest.Description;
+import org.hamcrest.TypeSafeDiagnosingMatcher;
+
+public class isEmptyString<String> extends TypeSafeDiagnosingMatcher<String>{
+
+	public void describeTo(Description description) {
+		description.appendText("A string is empty");
+		
+	}
+
+	@Override
+	protected boolean matchesSafely(String str, Description description) {
+		
+		return false;
+	}
+
+}

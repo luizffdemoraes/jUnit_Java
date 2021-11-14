@@ -1,0 +1,20 @@
+package com.schoolofnet.junit_maven;
+
+import org.hamcrest.Description;
+import org.hamcrest.TypeSafeDiagnosingMatcher;
+
+public class DivisibleBy extends TypeSafeDiagnosingMatcher<String> {
+
+	public void describeTo(Description description) {
+		description.appendText("The number is divisible por 2");
+		
+	}
+
+	@Override
+	protected boolean matchesSafely(Integer number, Description description) {
+		int result = number % 2;
+		return false;
+	}
+	
+
+}

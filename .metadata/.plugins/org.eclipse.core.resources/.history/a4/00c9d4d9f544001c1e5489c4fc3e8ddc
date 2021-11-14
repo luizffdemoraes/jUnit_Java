@@ -1,0 +1,7 @@
+package com.schoolofnet.junit_maven;
+
+import org.hamcrest.TypeSafeDiagnosingMatcher;
+
+public class DivisibleBy extends TypeSafeDiagnosingMatcher<String> {
+
+}

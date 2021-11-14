@@ -1,0 +1,7 @@
+package com.schoolofnet.junit_maven;
+
+import org.hamcrest.
+
+public class isEmptyString extends TypeSafeDiagno{
+
+}
