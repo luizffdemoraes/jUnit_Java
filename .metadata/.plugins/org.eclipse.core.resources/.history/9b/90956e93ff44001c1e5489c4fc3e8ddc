@@ -1,0 +1,12 @@
+package com.schoolofnet.junit_maven;
+
+import org.junit.jupiter.api.BeforeAll;
+
+public class AnnonTest {
+	
+	@BeforeAll
+	public static void beforeClassTest() {
+		System.out.println("@Before Class executed");
+	}
+
+}

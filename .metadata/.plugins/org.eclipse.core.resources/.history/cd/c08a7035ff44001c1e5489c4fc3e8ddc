@@ -1,0 +1,10 @@
+package com.schoolofnet.junit_maven;
+
+public class AnnonTest {
+	
+	@BeforeClass
+	public static void beforeClassTest() {
+		System.out.println("@Before Class executed");
+	}
+
+}

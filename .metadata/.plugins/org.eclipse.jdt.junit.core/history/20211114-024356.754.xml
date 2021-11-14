@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="junit-maven" project="junit-maven" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.schoolofnet.junit_maven.AnnonTest" time="0.009" displayname="AnnonTest" uniqueid="[engine:junit-jupiter]/[class:com.schoolofnet.junit_maven.AnnonTest]">
+    <testcase name="testOneTest" classname="com.schoolofnet.junit_maven.AnnonTest" time="0.005" displayname="testOneTest()" uniqueid="[engine:junit-jupiter]/[class:com.schoolofnet.junit_maven.AnnonTest]/[method:testOneTest()]"/>
+    <testcase name="testTwoTest" classname="com.schoolofnet.junit_maven.AnnonTest" time="0.002" displayname="testTwoTest()" uniqueid="[engine:junit-jupiter]/[class:com.schoolofnet.junit_maven.AnnonTest]/[method:testTwoTest()]"/>
+  </testsuite>
+</testrun>

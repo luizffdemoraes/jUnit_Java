@@ -1,0 +1,33 @@
+package com.schoolofnet.junit_maven;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+public class AnnonTest {
+	
+	@BeforeAll
+	public static void beforeClassTest() {
+		System.out.println("@Before Class executed");
+		System.out.println("@Before annon executed");
+	}
+	
+	@Test
+	@Ignore
+	public void testOneTest() {
+		System.out.println("@Test one");
+	}
+	
+	@Test
+	public void testTwoTest() {
+		System.out.println("@Test two");
+	}
+	
+	@AfterAll
+	public static void afterClassTest() {
+		System.out.println("@After annon executed");
+		System.out.println("@After Class executed");
+	}
+	
+
+}
