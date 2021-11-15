@@ -3,4 +3,8 @@
 	<section name="org.eclipse.buildship.ui.wizard.project.import">
 		<item key="project_location" value="C:\bootcamp\schoolofnet\Testing"/>
 	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="C:\Users\luiz9\eclipse-workspace\junit-gradel"/>
+		<item key="use_default_location" value="true"/>
+	</section>
 </section>

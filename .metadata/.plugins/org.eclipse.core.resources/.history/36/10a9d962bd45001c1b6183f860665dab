@@ -1,0 +1,10 @@
+package com.schoolofnet.junit_maven;
+
+public class SuiteCaseTest1 {
+	
+	@Test
+	public void calc() {
+		
+	}
+
+}

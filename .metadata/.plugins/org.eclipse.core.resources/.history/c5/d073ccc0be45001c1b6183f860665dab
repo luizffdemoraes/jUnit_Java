@@ -1,0 +1,14 @@
+package com.schoolofnet.junit_maven;
+
+import static org.junit.Assert.assertThat;
+
+import org.junit.jupiter.api.Test;
+
+public class SuiteCaseTest2 {
+	
+	@Test
+	public void sub() {
+		assertThat(2 - 2, is(0));
+	}
+
+}

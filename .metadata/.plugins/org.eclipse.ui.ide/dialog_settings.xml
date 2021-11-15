@@ -10,4 +10,10 @@
 			<item value="C:\bootcamp\spring-course-ds-5f14b4b0c3fd87c5090226bd91e799572afe9b1d"/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
 </section>
