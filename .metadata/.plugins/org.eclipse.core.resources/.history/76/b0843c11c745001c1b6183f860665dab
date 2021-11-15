@@ -1,0 +1,17 @@
+package com.schoolofnet.junit_maven;
+
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class GreaterThanTest {
+
+	private GreaterThan validate;
+	
+	@Before
+	public void initialize() {
+		validate = new GreaterThan();
+	}
+	
+}

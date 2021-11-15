@@ -1,0 +1,31 @@
+package com.schoolofnet.junit_maven;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class GreaterThanTest {
+
+	private GreaterThan validate;
+	
+	@Before
+	public void initialize() {
+		validate = new GreaterThan();
+	}
+	
+	@Test
+	public void greaterThenTest() {
+		System.out.println("Testing...");
+	}
+
+	@After
+	public void close() {
+		this.validate = null;
+	}
+	
+	
+	
+}

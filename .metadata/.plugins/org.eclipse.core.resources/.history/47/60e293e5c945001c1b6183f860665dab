@@ -1,0 +1,36 @@
+package com.schoolofnet.junit_maven;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.Assert.*;
+
+@RunWith(Parameterized.class)
+public class GreaterThanTest {
+
+	private GreaterThan validate;
+	private Boolean exResult;
+	
+	@Before
+	public void initialize() {
+		validate = new GreaterThan();
+	}
+	
+	@Test
+	public void greaterThenTest() {
+		System.out.println("Testing...");
+		assertEquals(exResult, validate.validate(number1));
+	}
+
+	@After
+	public void close() {
+		this.validate = null;
+	}
+	
+	
+	
+}
